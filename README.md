@@ -5,19 +5,23 @@ Auto-eject your external drives before sleep, reduces the annoying macOS ejectio
 
 Go to Releases
 
-Download the recent v1.1 AutoEjectInstaller-Package.dmg
+Download the recent v1.1 AutoEjectInstaller-v1.1.dmg
 
 Follow the prompts to set it up
 
 # Notes:
 You’ll be guided to allow Terminal Full Disk Access (required for encrypted drives)
 
-Also, you’ll need to enable SleepWatcher in Login Items → Allow in Background
+You’ll also need to give SleepWatcher Full Disk Access:
+Go to **System Settings → Privacy & Security → Full Disk Access, and make sure SleepWatcher is also enabled in the list.**
 
 Both are one-time setups
 
 
 
+
+
 **This tool uses force unmounting to ensure your selected drives are cleanly ejected before sleep**, even if Finder or background processes are holding onto them.
+
 
 While macOS does its best to flush data safely, **ejecting during active file transfers always carries a risk of interruption**, to avoid potential data loss or incomplete copies, **please make sure file transfers to your external drives are finished before your Mac goes to sleep.**
