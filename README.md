@@ -5,7 +5,7 @@ Auto-eject your external drives before sleep, reduces the annoying macOS ejectio
 
 Go to Releases
 
-Download the recent v1.2 AutoEjectInstaller-v1.1.dmg
+Download the recent v1.2 AutoEjectInstaller-v1.2.dmg
 
 Follow the prompts to set it up
 
